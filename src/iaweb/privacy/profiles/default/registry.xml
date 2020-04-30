@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <registry>
-<!-- -*- extra stuff goes here -*- -->
-
+  <record name="collective.privacy.solicit_consent">
+    <value>True</value>
+  </record>
 </registry>
