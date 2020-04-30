@@ -41,6 +41,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "Products.GenericSetup",
+        "collective.privacy",
         "plone.api",
         "setuptools",
         "z3c.jbot",
