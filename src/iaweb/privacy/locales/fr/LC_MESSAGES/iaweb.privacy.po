@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-04-30 14:40+0000\n"
+"POT-Creation-Date: 2021-08-30 14:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,18 +14,18 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: iaweb.privacy\n"
 
-#: ../configure.zcml:24
+#: ../configure.zcml:25
 msgid "Installs the iaweb.privacy add-on."
 msgstr ""
 
-#: ../configure.zcml:33
+#: ../configure.zcml:34
 msgid "Uninstalls the iaweb.privacy add-on."
 msgstr ""
 
-#: ../configure.zcml:24
+#: ../configure.zcml:25
 msgid "iaweb.privacy"
 msgstr ""
 
-#: ../configure.zcml:33
+#: ../configure.zcml:34
 msgid "iaweb.privacy (uninstall)"
 msgstr ""
