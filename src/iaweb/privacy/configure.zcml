@@ -7,6 +7,7 @@
 
   <i18n:registerTranslations directory="locales" />
 
+  <include package="collective.privacy" file="meta.zcml" />
   <include package="collective.privacy" />
 
   <include package=".browser" />
