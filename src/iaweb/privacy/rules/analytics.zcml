@@ -7,7 +7,7 @@
   <!-- statistics -->
 
   <gdpr:data_use_category
-    name="google_analytics"
+    name="basic_analytics"
     title="Use google analytics"
     description="We use Google Analytics to provide statistics to website owner.
 Google monitors the usage patterns of users to provide enhanced analytics."
