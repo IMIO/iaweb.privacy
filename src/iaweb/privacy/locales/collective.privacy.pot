@@ -46,7 +46,7 @@ msgid "Use google analytics"
 msgstr ""
 
 #: ../rules/minimal.zcml:17
-msgid "User experience"
+msgid "Essential cookies"
 msgstr ""
 
 #: ../rules/social.zcml:18

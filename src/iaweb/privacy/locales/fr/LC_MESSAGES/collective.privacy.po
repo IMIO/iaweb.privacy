@@ -43,8 +43,8 @@ msgid "Use google analytics"
 msgstr "Utilisation de Google Analytics"
 
 #: ../rules/minimal.zcml:17
-msgid "User experience"
-msgstr "Expérience Utilisateur"
+msgid "Essential cookies"
+msgstr "Cookies essentiels"
 
 #: ../rules/social.zcml:18
 msgid "We use Facebook to add a share button that allow users to share contents to Facebook platform. Facebook monitors the usage patterns of users to provide enhanced analytics and improve advertising."

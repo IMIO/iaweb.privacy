@@ -8,7 +8,7 @@
 
   <gdpr:data_use_category
     name="basic_cookies"
-    title="User experience"
+    title="Essential cookies"
     description="We use essential cookies to implement load balancing on our
 servers, to authenticate users and to store cookie preferences."
     legal_basis="vital_interest"
