@@ -5,7 +5,8 @@ Changelog
 1.0a2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- SUP-21477: Change default cookies texts
+  [laulaz]
 
 
 1.0a1 (2021-12-13)

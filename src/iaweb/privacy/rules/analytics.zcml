@@ -8,9 +8,9 @@
 
   <gdpr:data_use_category
     name="basic_analytics"
-    title="Use google analytics"
-    description="We use Google Analytics to provide statistics to website owner.
-Google monitors the usage patterns of users to provide enhanced analytics."
+    title="Analytics"
+    description="We use Google Analytics to collect, anonymously, statistics of
+visits and interactions with the site."
     legal_basis="consent"
     identifier="collective.privacy.identifiers.CookieIdentifier"
     storage="collective.privacy.storage.CookieStorage"

@@ -7,10 +7,10 @@
   <!-- basic rules -->
 
   <gdpr:data_use_category
-    name="basic_cookies"
+    name="all_basic_cookies"
     title="Essential cookies"
-    description="We use essential cookies to implement load balancing on our
-servers, to authenticate users and to store cookie preferences."
+    description="Essential cookies are necessary for the proper functioning of
+this website and cannot be refused."
     legal_basis="vital_interest"
     identifier="collective.privacy.identifiers.CookieIdentifier"
     storage="collective.privacy.storage.CookieStorage"
