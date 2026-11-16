@@ -15,6 +15,7 @@ name = "iaweb.privacy"
 version = "2.0.0.dev0"
 description = "Privacy rules for IMIO web projects"
 classifiers = [
+    "Development Status :: 5 - Production/Stable",
     "Environment :: Web Environment",
     "Framework :: Plone",
     "Framework :: Plone :: 6.1",
