@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """Installer for the iaweb.privacy package."""
 
-from setuptools import find_packages
 from setuptools import setup
 
 
@@ -16,7 +15,7 @@ long_description = "\n\n".join(
 
 setup(
     name="iaweb.privacy",
-    version="1.0a3.dev0",
+    version="2.0.0.dev0",
     description="Privacy rules for IMIO web projects",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -24,9 +23,14 @@ setup(
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Plone",
-        "Framework :: Plone :: 4.3",
+        "Framework :: Plone :: 6.1",
+        "Framework :: Plone :: 6.2",
+        "Framework :: Plone :: Addon",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
         "Operating System :: OS Independent",
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
@@ -35,16 +39,13 @@ setup(
     author_email="support@imio.be",
     url="https://pypi.python.org/pypi/iaweb.privacy",
     license="GPL version 2",
-    packages=find_packages("src", exclude=["ez_setup"]),
-    namespace_packages=["iaweb"],
-    package_dir={"": "src"},
     include_package_data=True,
     zip_safe=False,
+    python_requires=">=3.10",
     install_requires=[
         "Products.GenericSetup",
         "collective.privacy",
         "plone.api",
-        "setuptools",
         "z3c.jbot",
     ],
     extras_require={
