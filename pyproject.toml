@@ -4,8 +4,6 @@
 [build-system]
 requires = ["setuptools>=68.2,<83", "wheel"]
 
-
-
 # START-MARKER-MANUAL-CONFIG
 # Anything from here until END-MARKER-MANUAL-CONFIG
 # will be kept by plone.meta
@@ -36,8 +34,10 @@ authors = [
 ]
 dependencies = [
     "Products.GenericSetup",
+    "Zope",
     "collective.privacy",
-    "plone.api",
+    "plone.app.upgrade",
+    "plone.base",
     "z3c.jbot",
 ]
 keywords = ["Python", "Plone"]
@@ -47,9 +47,11 @@ target = "plone"
 
 [project.optional-dependencies]
 test = [
-    "plone.app.robotframework",
     "plone.app.testing",
-    "plone.testing",
+    "plone.browserlayer",
+    "zest.releaser[recommended]",
+    "zestreleaser.towncrier",
+    "zope.testrunner",
 ]
 
 [project.urls]
@@ -180,7 +182,7 @@ Zope = [
 ]
 python-dateutil = ['dateutil']
 pytest-plone = ['pytest', 'zope.pytestlayer', 'plone.testing', 'plone.app.testing']
-ignore-packages = ['zestreleaser.towncrier', 'zest.releaser']
+ignore-packages = ['zestreleaser.towncrier', 'zest.releaser', 'zope.testrunner']
 
 ##
 # Add extra configuration options in .meta.toml:
