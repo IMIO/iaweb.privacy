@@ -1,5 +1,0 @@
-=============
-iaweb.privacy
-=============
-
-User documentation
