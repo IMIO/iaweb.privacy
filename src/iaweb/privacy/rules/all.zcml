@@ -7,7 +7,7 @@
 
   <include file="analytics.zcml" />
   <include file="embed.zcml" />
-  <include file="medial.zcml" />
+  <include file="media.zcml" />
   <include file="multilingual.zcml" />
   <include file="social.zcml" />
 
