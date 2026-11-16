@@ -6,6 +6,61 @@ requires = ["setuptools>=68.2,<83", "wheel"]
 
 
 
+# START-MARKER-MANUAL-CONFIG
+# Anything from here until END-MARKER-MANUAL-CONFIG
+# will be kept by plone.meta
+
+[project]
+name = "iaweb.privacy"
+version = "2.0.0.dev0"
+description = "Privacy rules for IMIO web projects"
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Plone",
+    "Framework :: Plone :: 6.1",
+    "Framework :: Plone :: 6.2",
+    "Framework :: Plone :: Addon",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+license = "GPL-2.0-only"
+dynamic = ["readme"]
+requires-python = ">=3.10"
+authors = [
+    {name = "Martin Peeters",email = "support@imio.be"},
+]
+dependencies = [
+    "Products.GenericSetup",
+    "collective.privacy",
+    "plone.api",
+    "z3c.jbot",
+]
+keywords = ["Python", "Plone"]
+
+[project.entry-points."plone.autoinclude.plugin"]
+target = "plone"
+
+[project.optional-dependencies]
+test = [
+    "plone.app.robotframework",
+    "plone.app.testing",
+    "plone.testing",
+]
+
+[project.urls]
+PyPI = "https://pypi.org/project/iaweb.privacy"
+Source = "https://github.com/IMIO/iaweb.privacy"
+Issues = "https://github.com/IMIO/iaweb.privacy/issues"
+Changelog = "https://github.com/IMIO/iaweb.privacy/blob/master/CHANGES.md"
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md", "CONTRIBUTORS.md", "CHANGES.md"], content-type = "text/markdown"}
+# END-MARKER-MANUAL-CONFIG
+
 [tool.towncrier]
 directory = "news/"
 filename = "CHANGES.md"
