@@ -6,8 +6,8 @@
 
 
 - Breaking: replace the `pkg_resources` namespace of `iaweb` with a PEP 420
-  native namespace. Support Plone 6.1 and 6.2 only, on Python 3.10 to 3.13.
-  Use 1.0a2 for older Plone versions.
+  native namespace. Support Plone 6.1 only on Python 3.10 to 3.13, and Plone
+  6.2 on Python 3.10 to 3.14. Use 1.0a2 for older Plone versions.
   [remdub]
 
 - Import `INonInstallable` from `plone.base` instead of the alias Plone 6.2

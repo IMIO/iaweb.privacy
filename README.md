@@ -19,7 +19,8 @@ example `<include package="iaweb.privacy.rules" file="analytics.zcml" />`.
 | `social.zcml` | `show_facebook_share`, `show_twitter_share` |
 | `all.zcml` | All of the above, except `minimal.zcml` |
 
-Version 2.x supports Plone 6.1 and 6.2, on Python 3.10 to 3.13.
+Version 2.x supports Plone 6.1 on Python 3.10 to 3.13, and Plone 6.2 on Python
+3.10 to 3.14.
 For older Plone versions, use iaweb.privacy 1.0a2.
 
 
